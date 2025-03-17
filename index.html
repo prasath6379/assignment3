@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plotlist Navbar</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg p-4 px-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/black-logo.png" alt="Logo" class="img-fluid w-100">
+      <!-- <span class="plot">Plotlist</span> -->
+      </a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center gap-lg-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Listing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn-listing">
+              <span>+</span> Add Your Listing
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p>OVER 36,500+ ACTIVE LISTINGS</p>
+      <h1><strong>Find Nearby Places & Things</strong></h1>
+
+      <div class="search-box mt-4">
+        <select>
+          <option>All Areas</option>
+          <option>Area 1</option>
+          <option>Area 2</option>
+        </select>
+        <input type="text" placeholder="Enter a location">
+        <select>
+          <option>Price Range</option>
+          <option>$ - Low</option>
+          <option>$$ - Medium</option>
+          <option>$$$ - High</option>
+        </select>
+        <button><i class="fas fa-search"></i> Search Now</button>
+      </div>
+
+      <div class="icons-section mt-5">
+        <div class="icon-card">
+          <i class="fas fa-home"></i>
+          <p>Apartments</p>
+        </div>
+        <div class="icon-card">
+          <i class="fas fa-hamburger"></i>
+          <p>Food & Life</p>
+        </div>
+        <div class="icon-card">
+          <i class="fas fa-car"></i>
+          <p>Cars</p>
+        </div>
+        <div class="icon-card">
+          <i class="fas fa-shopping-bag"></i>
+          <p>Shopping</p>
+        </div>
+        <div class="icon-card">
+          <i class="fas fa-globe-americas"></i>
+          <p>Traveling</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+  <section class="categories-section text-center mt-5 mb-5">
+    <h2 class="fw-bold mb-2">Popular Categories</h2>
+    <p class="text-muted mb-5">CHECK THEM OUT</p>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12"> <!-- Increased Width -->
+          <div class="d-flex flex-wrap category-box">
+            <!-- Left Categories -->
+            <div class="d-flex flex-column flex-grow-1 col-md-4 category-list">
+              <div class="category-item">
+                <i class="fas fa-home"></i> Apartments
+              </div>
+              <div class="category-item">
+                <i class="fas fa-hamburger"></i> Food & Life
+              </div>
+              <div class="category-item">
+                <i class="fas fa-car"></i> Cars
+              </div>
+              <div class="category-item">
+                <i class="fas fa-shopping-bag"></i> Shopping
+              </div>
+              <div class="category-item">
+                <i class="fas fa-globe-americas"></i> Traveling
+              </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="d-flex flex-grow-1 col-md-8 flex-wrap">
+              <div class="col-md-7 category-content">
+                <h5>One Of The Most Trending Stuffs Right Now!</h5>
+                <p>
+                  Plot Listing is a responsive Bootstrap 5 website template that includes 4 different HTML pages.
+                  You can apply this layout for your static or dynamic CMS websites.
+                </p>
+                <button class="discover-btn ">Discover More</button>
+              </div>
+              <div class="col-md-5 category-img p-4">
+                <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/tabs-image-01.jpg" alt="Building" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <div id="listingCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <h1 class="text-center">Recent Listing</h1>
+    <h4 class="text-center" style="color: grey;">CHECK THEM OUT</h4>
+
+    <div class="carousel-inner">
+
+      <!-- First Slide -->
+      <div class="carousel-item active">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Listing 1">
+          </div>
+          <div class="listing-content">
+            <h4>1. First Apartment Unit</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Sale Agent</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(18 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $450 - $950 / month with taxes</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 2760 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>4 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>4 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Slide -->
+      <div class="carousel-item">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-04.jpg" alt="Listing 2">
+          </div>
+          <div class="listing-content">
+            <h4>2. Another Gaming House</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Top Sale Agent</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(25 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $600 - $1100 / month</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 3000 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>5 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>3 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Slide -->
+      <div class="carousel-item">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-05.jpg" alt="Listing 3">
+          </div>
+          <div class="listing-content">
+            <h4>3. Secret Place Hidden House</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Best Property</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(12 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $700 - $1500 / month</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 3500 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>6 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>4 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#listingCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#listingCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators mt-4">
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div id="listingCarousel" class="carousel slide" data-bs-ride="carousel">
+
+
+    <div class="carousel-inner">
+
+      <!-- First Slide -->
+      <div class="carousel-item active">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-04.jpg" alt="Listing 1">
+          </div>
+          <div class="listing-content">
+            <h4>1. First Apartment Unit</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Sale Agent</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(18 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $450 - $950 / month with taxes</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 2760 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>4 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>4 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Slide -->
+      <div class="carousel-item">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-02.jpg" alt="Listing 2">
+          </div>
+          <div class="listing-content">
+            <h4>2. Another Gaming House</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Top Sale Agent</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(25 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $600 - $1100 / month</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 3000 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>5 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>3 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Slide -->
+      <div class="carousel-item">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-05.jpg" alt="Listing 3">
+          </div>
+          <div class="listing-content">
+            <h4>3. Secret Place Hidden House</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Best Property</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(12 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $700 - $1500 / month</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 3500 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>6 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>4 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#listingCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#listingCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators mt-4">
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+
+
+
+  <div id="listingCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- First Slide -->
+      <div class="carousel-item active">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Listing 1">
+          </div>
+          <div class="listing-content">
+            <h4>1. First Apartment Unit</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Sale Agent</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(18 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $450 - $950 / month with taxes</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 2760 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>4 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>4 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Slide -->
+      <div class="carousel-item">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-06.jpg" alt="Listing 2">
+          </div>
+          <div class="listing-content">
+            <h4>2. Another Gaming House</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Top Sale Agent</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(25 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $600 - $1100 / month</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 3000 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>5 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>3 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Slide -->
+      <div class="carousel-item">
+        <div class="listing-card">
+          <div class="listing-img">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-03.jpg" alt="Listing 3">
+          </div>
+          <div class="listing-content">
+            <h4>3. Secret Place Hidden House</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <p>by: <span class="text-primary">Best Property</span></p>
+              <div class="d-flex align-items-center">
+                <div class="rating-stars me-2">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="mb-0">(12 Reviews)</p>
+              </div>
+            </div>
+            <p><i class="fa-solid fa-dollar-sign"></i> $700 - $1500 / month</p>
+            <p><i class="fa-solid fa-ruler-combined"></i> Details: 3500 sq ft</p>
+            <div class="listing-features">
+              <p><i class="fa-solid fa-bed"></i>6 Bedrooms</p>
+              <p><i class="fa-solid fa-bath"></i>4 Bathrooms</p>
+            </div>
+            <button class="contact-btn">
+              <i class="fa-regular fa-eye"></i> Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#listingCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#listingCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators mt-4">
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#listingCarousel" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row text-center text-md-start">
+
+        <!-- Logo and Description -->
+        <div class="col-md-4 mb-4">
+          <div class="footer-logo d-flex flex-column align-items-center align-items-md-start">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/black-logo.png" alt="logo" width="150" />
+            <p class="mt-3">
+              If you consider that Plot Listing template is useful for your website, please support us a little via PayPal.
+            </p>
+          </div>
+        </div>
+
+        <!-- Helpful Links -->
+        <div class="col-md-4 mb-4 footer-links">
+          <h5>Helpful Links</h5>
+          <div class="d-flex justify-content-center justify-content-md-start">
+            <ul class="me-4">
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Listing</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Awards</a></li>
+              <li><a href="#">Useful Sites</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4 footer-links">
+          <h5>Contact Us</h5>
+          <p>27th Street of New Town, Digital Villa</p>
+          <p>010-020-0340 &nbsp; &nbsp; 090-080-0760</p>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.</p>
+        <p>Design: TemplateMo</p>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
